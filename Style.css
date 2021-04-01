@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+    color: #999;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.showcase {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url('img/background-2.jpg') no-repeat center center/cover;
+    box-shadow: inset 50px 50px 200px #000000, inset -50px -50px 200px #000000;
+}
+
+.showcase-top {
+    position: relative;
+    height: 90px;
+}
+
+.showcase-top img {
+    width: 135px;
+    position: absolute;
+    margin: 0 56px;
+    padding-top: 28px;
+}
+
+.showcase-top .net-menu {
+    float: right;
+    padding-top: 35px;
+}
+
+.showcase-top .net-menu i {
+    color: #fff;
+    background-color: #fff;
+}
+
+.net-menu .btn-select {
+    font-size: 1rem;
+    font-weight: 200;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    white-space: nowrap;
+    line-height: 1.3em;
+    padding: 8px 10px;
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+}
+
+.net-menu .btn-select:focus {
+    outline: none;
+}
+
+.net-menu .btn-rounded {
+    background: #e50914;
+    color: #fff;
+    padding: 10px 16px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 56px;
+    margin-left: 30px;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 3px;
+}
+
+.showcase-content {
+    width: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8.5rem;
+}
+
+.showcase-content h1 {
+    width: 510px;
+    font-size: 3.125rem;
+    color: #fff;
+}
+
+.showcase-content .p-1 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin: 16px 0;
+}
+
+.showcase-content .p-2 {
+    font-size: 19.2px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 13.6px;
+}
+
+.showcase-content .email-btn {
+    height: 100px;
+    margin-top: -20px;
+}
+
+.showcase-content input {
+    width: 450px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.showcase-content a {
+    background: #e50914;
+    color: #fff;
+    padding: 11px 20px 19px 20px;
+    line-height: 5;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    border: none;
+    border-left: 1px solid #333;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-left: -0.3rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
